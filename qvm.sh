@@ -20,7 +20,7 @@ function stopVMs {
 
 if [ -z $1 ]; then
 cat <<EOF
-start-vms.sh version ${VERSION}
+qvm.sh version ${VERSION}
 
 Start and stop virtual maachines.
 Syntax: ./start-vms.sh [start|stop]
