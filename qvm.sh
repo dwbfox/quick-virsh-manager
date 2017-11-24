@@ -16,7 +16,7 @@ function stopVMs {
 }
 
 function backupXMLs {
-   for vm in $("$VIRSH_BIN" list --all | sed 1,2d | cut -d' ' -f 7); do
+   for vm in $("$VIRSH_BIN" list --all | sed 1,2d | cut -d' ' -f 6,7); do
         echo "Backing up $vm to $1/$vm.xml"
         $VIRSH_BIN dumpxml "$vm" > "$1/$vm.xml"
    done;
