@@ -2,7 +2,6 @@
 ###############################################################################
 #
 #   Quick Virsh Manager v0.5.1
-#   Dagmawi Biru dbiru@cisco.com
 #
 #   MIT License
 #   
